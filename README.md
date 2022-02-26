@@ -1,2 +1,2 @@
 # kirrat975.github.io
-This project conveets pakistan currency to foreign currency and vice versa.
+This project converts pakistan currency to foreign currency and vice versa.
