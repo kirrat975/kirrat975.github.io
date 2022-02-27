@@ -1,0 +1,179 @@
+<html>
+<head> 
+   <link rel="stylesheet" href="currency.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="currency.js" type="text/JavaScript" defer></script>
+</head>
+<body style="background-color: seagreen;">
+<div class="con">
+<h1>Convert PAKISTAN currency into FOREIGN currency</h1>
+<h2>Main Menu</h2>
+
+<p>Enter (1) for conversion of Pakistan currency to foreign currency.</p>
+<p>Enter (2) for conversion of Foreign currency to Pakistan currency.</p>
+
+   <input type="number" placeholder="Enter your choice" id="unum">
+</div>
+<div class="container pak">
+
+  <h1 style="font-weight: bold; font-family: 'Courgette';font-size: 30px;">
+   Welcome at  conversion of Pakistan Currency to Foreign Currency</h1>  
+
+ <p style="font-weight: bold;font-family: 'Courgette';font-size: 30px;">
+   Enter amount in Pak Rupees for conversion: <span style='font-size:50px;'>&#8360;</span>
+   <input type="number" id="amo"></p>
+ 
+<input type="submit" id="sub" onclick="convertp2f()">
+<input type="button" id="back" value="Back" onclick="window.location.href = 'index.html';">
+<!--US dollar-->
+<div class="us">  
+<i class="fa fa-dollar" style="font-size:50px;"></i>
+<label>US(Dollar)</label>
+   <input type="number" id="ous" >
+</div>
+<!--euro-->
+<div class="eu">
+<i class="fa fa-euro" style="font-size:50px;"></i> 
+<label >Euro</label>
+   <input type="number" id="oeu" >
+</div>
+
+<!--pounds-->
+<div class="po">
+ <i class="fa fa-gbp" style="font-size:50px;"></i>
+ <label>Pounds</label>
+   <input type="number" id="opo" >
+</div>
+<!--Yen-->
+<div class="yen">
+<i class="fa fa-jpy" style="font-size:50px;"></i>
+<label>Yen</label>
+   <input type="number" id="oyen" >
+   </div>
+
+   <!--saudi-->
+<div class="sau">
+<span style="font-size:50px;">&#65020;</span>
+<label>Riyal</label>
+   <input type="number" id="osau" >
+       </div>
+ <!--Yuan-->
+<div class="yuan">
+    <i class="fa fa-cny" style="font-size:50px;"></i>
+    <label>Yuan</label>
+   <input type="number" id="oyuan">
+       </div>   
+       
+<div class="uae">
+    <span style="font-size:50px;">&#x62f;&#x2e;&#x625;</span>
+    <label>Dirham</label>
+    <input type="number" id="ouae" >
+       </div>  
+<!--India-->
+       <div class="ind">
+        <i class="fa fa-inr" style="font-size:50px;"></i>
+        <label>INR</label>
+<input type="number" id="oinr" >
+         </div>   
+</div>
+<!--Option2-->
+<div class="foreign">
+   
+    <h1>Welcome at  conversion of Foreign Currency to Pakistan Currency</h1>  
+    <p>Enter amount in Foreign currency for conversion: <input type="number" id="amor" placeholder="Enter the amount"></p>
+    <input type="submit" onclick="convertf2p()">
+    <input type="button" id="back" value="Back" onclick="window.location.href = 'index.html';">
+  
+   <!--US dollar-->
+   <div class="us">
+    <img class="img-fluid
+    " src = "http://flags.ox3.in/svg/us.svg" width="100px">
+    <label>US Dollar </label>
+    <span style='font-size:40px;'>&#8680;</span>
+   <img class="img-fluid" src="http://flags.ox3.in/svg/pk.svg" width="100px">
+   <label>Rs</label>
+   <input type="number" id="upk" >
+   </div>
+   <!--euro-->
+   <div class="eu">
+    <img class="img-fluid" src=" http://flags.ox3.in/svg/eu.svg" width="100px">
+    <label>Euro</label>
+    <span style='font-size:40px;'>&#8680;</span>
+
+   <img  class="img-fluid" src="http://flags.ox3.in/svg/pk.svg" width="100px">
+   <label>Rs</label>
+   <input type="number" id="epk" >
+   </div>
+   
+   <!--pounds-->
+   <div class="po">
+    <img  class="img-fluid"src=" http://flags.ox3.in/svg/uk.svg" width="100px">
+    <label>Pounds</label>
+    <span style='font-size:40px;'>&#8680;</span>
+
+   <img  class="img-fluid"src="http://flags.ox3.in/svg/pk.svg" width="100px">
+   <label>Rs</label>
+   <input type="number" id="ppk" >
+   </div>
+   <!--Yen-->
+   <div class="yen">
+    <img class="img-fluid" src=" http://flags.ox3.in/svg/jp.svg" width="100px">
+    <label>Yen</label>
+    <span style='font-size:40px;'>&#8680;</span>
+
+   <img class="img-fluid"src="http://flags.ox3.in/svg/pk.svg" width="100px">
+   <label>Rs</label>
+   <input type="number" id="yepk" >
+      </div>
+   
+      <!--saudi-->
+   <div class="sau">
+    <img class="img-fluid" src=" http://flags.ox3.in/svg/sa.svg" width="100px">
+    <label>Riyal</label>
+    <span style='font-size:40px;'>&#8680;</span>
+
+       <img  class="img-fluid" src="http://flags.ox3.in/svg/pk.svg" width="100px">
+       <label>Rs</label>
+   <input type="number" id="sapk" >
+          </div>
+    <!--Yuan-->
+   <div class="yuan">
+    <img class="img-fluid" src=" http://flags.ox3.in/svg/cn.svg" width="100px">
+    <label>Yuan</label>
+    <span style='font-size:40px;'>&#8680;</span>
+
+       <img  class="img-fluid" src="http://flags.ox3.in/svg/pk.svg" width="100px">
+       <label>Rs</label>
+       <input type="number" id="yupk" >
+
+          </div>   
+          
+   <div class="uae">
+    <img  class="img-fluid" src=" http://flags.ox3.in/svg/ae.svg" width="100px">
+    <label>Dirham</label>
+    <span style='font-size:40px;'>&#8680;</span>
+
+       <img  class="img-fluid" src="http://flags.ox3.in/svg/pk.svg" width="100px">
+       <label>Rs</label>
+       <input type="number" id="dmpk" >
+          </div>  
+   <!--India-->
+          <div class="ind">
+           <img class="img-fluid"  src=" http://flags.ox3.in/svg/in.svg" width="100px">
+           <label>INR</label>
+           <span style='font-size:40px;'>&#8680;</span>
+           <img  class="img-fluid" src="http://flags.ox3.in/svg/pk.svg" width="100px">
+           <label>Rs</label>
+           <input type="number" id="inpk" >
+      </div>   
+
+</div>
+</body>
+</html>
