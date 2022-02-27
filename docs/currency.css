@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 .con{
  font-weight: bold;
  font-family: 'Courgette';
