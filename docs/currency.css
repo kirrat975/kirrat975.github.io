@@ -26,11 +26,7 @@ position: absolute;
 
 }
 
-@media (max-width: 480px) {
-  .pak {
-      background-color: lime;
-  }
-}
+
 
 .foreign{
     display: none;
@@ -44,6 +40,12 @@ position: absolute;
  top: 40%;
   left: 10%;
   right: 10%;
+}
+
+@media screen and (min-device-aspect-ratio: 16/9) {
+ img{
+   width:50px;
+  }
 }
 
 input[type=number]
