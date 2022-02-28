@@ -26,6 +26,12 @@ position: absolute;
 
 }
 
+@media (max-width: 480px) {
+  .pak {
+      background-color: lime;
+  }
+}
+
 .foreign{
     display: none;
  font-family: 'Courgette';
