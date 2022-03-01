@@ -53,40 +53,21 @@ text-indent: 20px;
 text-align: center;
 background-color: rgb(74, 208, 134);
 }
-@media only screen and (max-width: 360px) and (max-height: 471px) {
-
-  body{
-
-
+@media (max-width: 767px) {
+  body {
+      height: 100%;
   }
-  .con{
-    font-weight: 200;
-    font-family: 'Courgette';
-    font-size: 20px;
-    text-align: center;
-    display: block;
-   }
-   .pak{
-      left:0%;
-      font-size: 20px;
-  padding:10px;
-  right:0%;
-    
-    }
-    img{
-      width:50px;
-    }
 
-    .foreign{
+  h1 {
+      font-size: 2rem;
+  }
 
-      left:0%;
-      font-size: 20px;
-  padding:10px; 
-    }
-   
-input[type=number]
-{
-height:50px;
+  input {
+      width: 80%;
+  }
 
+  input:focus {
+      width: 90%;
+  }
 }
-}
+
