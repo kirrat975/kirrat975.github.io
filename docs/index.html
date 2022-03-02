@@ -4,24 +4,30 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     
     <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <link rel="stylesheet" href="currency.css">
-<script src="currency.js" type="text/JavaScript" defer></script>
+
+
 </head>
 <body style="background-color: seagreen;">
-<div class="con">
-<h1>Convert PAKISTAN currency into FOREIGN currency</h1>
-<h2>Main Menu</h2>
-
-<p>Enter (1) for conversion of Pakistan currency to foreign currency.</p>
-<p>Enter (2) for conversion of Foreign currency to Pakistan currency.</p>
-
-   <input type="number" placeholder="Enter your choice" id="unum">
-</div>
-<div class="container pak">
+   <div class="con1">
+      <h1>Convert PAKISTAN currency converter</h1>
+      <h2>Main Menu</h2>
+      
+      <p>Enter (1) for conversion of Pakistan currency to foreign currency.</p>
+      <p>Enter (2) for conversion of Foreign currency to Pakistan currency.</p>
+      
+         <input type="number" placeholder="Enter your choice" id="unum">
+      </div>
+<div class="main">
+  
+<div class="pak">
 
   <h1 style="font-weight: bold; font-family: 'Courgette';font-size: 30px;">
    Welcome at  conversion of Pakistan Currency to Foreign Currency</h1>  
@@ -90,9 +96,10 @@
     <p>Enter amount in Foreign currency for conversion: <input type="number" id="amor" placeholder="Enter the amount"></p>
     <input type="submit" onclick="convertf2p()">
     <input type="button" id="back" value="Back" onclick="window.location.href = 'index.html';">
-  
+   
    <!--US dollar-->
    <div class="us">
+      
     <img class="img-fluid
     " src = "png-64/united-64x64-33135.png" width="100px">
     <label>US Dollar </label>
@@ -175,5 +182,7 @@
       </div>   
 
 </div>
+</div>
+<script src="currency.js" type="text/JavaScript" ></script>
 </body>
 </html>

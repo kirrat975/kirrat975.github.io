@@ -2,6 +2,7 @@
 $(document).ready(function () {
     $("#unum").keyup(function () {
         $(".pak").css("display", this.value == 1 ? "block" : "none");
+        $(".con1").css("display", this.value == 1 ? "none" : "block");
     });
 });
 function convertp2f(){
@@ -28,6 +29,7 @@ function convertp2f(){
 $(document).ready(function () {
     $("#unum").keyup(function () {
         $(".foreign").css("display", this.value == 2 ? "block" : "none");
+        $(".con1").css("display", this.value == 2 ? "none" : "block");
     });
 });
 function convertf2p()

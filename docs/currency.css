@@ -1,10 +1,11 @@
 
-.con{
+.main , .con1{
  font-weight: bold;
  font-family: 'Courgette';
  font-size: 30px;
  text-align: center;
 }
+
 
 img{
   margin:10px;
@@ -61,7 +62,10 @@ background-color: rgb(74, 208, 134);
             h1 {
                 font-size: 2rem;
             }
-            
+            .foreign, .pak{
+                position: relative;
+                left:0%
+            }
             input {
                 width: 80%;
             }
