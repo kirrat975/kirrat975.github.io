@@ -8,7 +8,7 @@ $(document).ready(function () {
 function convertp2f(){
     var pkr = document.getElementById("amo").value;
 
-    var usd =  pkr*0.00567710;
+    var usd =  pkr*0.00496777;
     var euro = pkr*0.005006;
     var riy  = pkr*0.0212919;
     var yu    = pkr*0.0358949;
@@ -36,7 +36,7 @@ function convertf2p()
 {
     var forg= document.getElementById("amor").value;
 
-var usdpk= forg*185.704224;
+var usdpk= forg*202.2345;
 var eupk=forg*200.23175;
 var popk=forg*232.43459;
 var yepk=forg*1.5341049;
